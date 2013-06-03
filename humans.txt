@@ -1,0 +1,12 @@
+
+# AUTHOR
+
+    Raimonds Sarkanbardis - hello@thevisioner.com
+
+
+# SITE
+
+    Language: English
+    Standards: HTML5, CSS3, JavaScript
+    Components: jQuery, Modernizr, Respond.js
+    Last update: 2013/06/05/
