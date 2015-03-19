@@ -1,36 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Page Not Found | The Visioner</title>
     <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
     <style>
+        html {
+            height:100%;
+        }
+        
         body
         {
             background-color:#1B1B1B;
+            height:100%;
+            width:100%;
+            margin: 0;
         }
         
         #logo-background
         {
             position:absolute;
+            max-width:100%;
             left:50%;
             top:50%;
             width:548px;
             height:408px;
             margin-top:-204px;
             margin-left:-274px;
-            background-image:url("/assets/logo-background-404.png");
+            background:url("/assets/logo-background-404.png") no-repeat center center;
         }
         
         #title
         {
             position:absolute;
+            max-width:100%;
             left:50%;
             top:36%;
             width:364px;
             height:32px;
             margin-left:-182px;
-            background-image:url("/assets/page-not-found.png");
+            background:url("/assets/page-not-found.png") no-repeat center center;
         }
         
         #button
@@ -46,6 +56,21 @@
         #button:hover
         {
             background-position:-178px;
+        }
+        
+        
+        @media (max-width: 640px) {
+            #title {
+                background-size:273px 24px;
+                margin-left:-136px;
+                height:24px;
+                width:273px;
+            }
+            
+            #logo-background
+            {
+                margin-left:-50%;
+            }
         }
     </style>
 </head>

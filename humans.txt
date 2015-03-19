@@ -8,5 +8,4 @@
 
     Language: English
     Standards: HTML5, CSS3, JavaScript
-    Components: jQuery, Modernizr, Respond.js
-    Last update: 2013/06/05/
+    Last update: 2014/11/30/
