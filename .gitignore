@@ -1,0 +1,10 @@
+
+// ignore project files
+*.bat
+*.jar
+
+css/
+!css/*.min.css
+
+js/
+!js/*.min.js
