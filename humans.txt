@@ -8,4 +8,4 @@
 
     Language: English
     Standards: HTML5, CSS3, JavaScript
-    Last update: 2014/11/30/
+    Last update: 17.04.2018
